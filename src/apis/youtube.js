@@ -21,7 +21,7 @@ const youtube = async term => {
     });
 
     const data = await response.json();
-    console.log({data})
+    //console.log({data})
     return data.items;
 };
 
